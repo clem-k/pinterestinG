@@ -2,7 +2,7 @@
 	<h1>WELCOME to my app!</h1>
 
 <% if user_signed_in? %>
-		# Welcome to the Members Area #	
+		# You've signed in! Welcome to the Members Area #	
 <% else %>
 	<p>
 		<%=link_to "Log in", new_user_session_path, class: "btn btn-primary btn-lg" %>
