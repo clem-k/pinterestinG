@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.0.0'
 
 
 
@@ -11,6 +12,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0'
 gem 'bootstrap-sass'
+gem 'devise', '~> 3.5.2.rc2'
 
 
 group :development, :test do
